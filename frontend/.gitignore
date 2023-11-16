@@ -1,8 +1,8 @@
 .DS_Store
 node_modules
 /dist
-
-
+/versions/
+.vscode/settings.json
 # local env files
 .env.local
 .env.*.local
@@ -24,6 +24,8 @@ pnpm-debug.log*
 
 ### Vue ###
 .DS_Store
+/alias/
+/.cache/
 node_modules/
 /dist/
 npm-debug.log*
@@ -34,3 +36,5 @@ yarn-error.log*
 .env.*.local
 test-report.xml
 coverage/
+.env
+.env.development
